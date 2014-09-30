@@ -26,6 +26,14 @@ public class MainActivity extends Activity
 	//Set the listener for Checkbox, we use onclik listener here 
 		c1.setOnCheckedChangeListener(new OnCheckedChangeListener()
 		{
+			/**public abstract void onCheckedChanged (CompoundButton buttonView, boolean isChecked)
+
+			Added in API level 1
+			Called when the checked state of a compound button has changed.
+
+			Parameters
+			buttonView	The compound button view whose state has changed.
+			isChecked	The new checked state of buttonView.**/
 			
 			@Override
 			public void onCheckedChanged(CompoundButton arg0, boolean arg1)
