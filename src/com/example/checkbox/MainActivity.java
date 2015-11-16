@@ -84,14 +84,15 @@ public class MainActivity extends Activity
 			public void onCheckedChanged(CompoundButton arg0, boolean arg1) 
 			{
 				// TODO Auto-generated method stub
+				//STEP 5.1: Set the condition for checkbox c3
 				if(arg1==true)
 				{
-					//STEP 5.1: Set the condition for checkbox c3	
+					//STEP 5.2: Set toast message for c3 checkbox if it is checked	
 					Toast.makeText(MainActivity.this,"Current Account is Selected",Toast.LENGTH_LONG).show();
 				}
 				else if(arg1==false)
 				{
-					//STEP 5.2: Set toast message for c3 checkbox if it is checked
+					//STEP 5.3: Set toast message for checkbox c3 if it is unchecked
 					Toast.makeText(MainActivity.this,"Current Account is UnSelected",Toast.LENGTH_LONG).show();
 				}
 				
